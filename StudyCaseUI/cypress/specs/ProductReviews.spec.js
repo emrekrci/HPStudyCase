@@ -9,7 +9,6 @@ require ('cypress-iframe')
 describe('Reviews Test Cases', () => {
 
     before(() => {
-        cy.setCookie("cookie", "cookie")
         cy.visit("/", {failOnStatusCode: false});
         secureAccessPage.skipSecureAccessPage();
     })
