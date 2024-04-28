@@ -1,6 +1,6 @@
-import HeaderContainer, { headerPage } from "../pages/HeaderContainer";
-import SearchResultPage, { searchResultPage } from "../pages/SearchResultPage";
-import ProductDetails, { productDetailsPage } from "../pages/ProductDetails";
+import { headerPage } from "../pages/HeaderContainer";
+import { searchResultPage } from "../pages/SearchResultPage";
+import { productDetailsPage } from "../pages/ProductDetails";
 import { secureAccessPAge as secureAccessPage } from "../pages/SecureAccessPage";
 require ('cypress-iframe')
 
